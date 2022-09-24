@@ -26,16 +26,21 @@ body{
     padding-top: 10px;
     position: relative;
 }
+.nav{
+    background-color: #d9c0aa;
+}
 .navItems{
-    list-style: none; 
     display: flex; 
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-end;
 }
-.navLink{
+/* .navLink{
     color: white;
     text-decoration: none;
     padding: 20px 20px;
+} */
+.nav-link:hover{
+    color: #3866f2;
 }
 .onda{
     position: absolute;
