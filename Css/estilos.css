@@ -465,12 +465,13 @@ body{
     .tratamientosItem{
         width: 400px;
     }
-    .nav-link{
-        color: #706c6c;
+    .navLink{
+        color: #a8a5a5;
     }
     .navFooter{
         display: flex;
-        align-items: flex-end;
+        flex-direction: column;
+        align-items: flex-start;
     }
     .navFooterItem{
         font-size: 16px;
