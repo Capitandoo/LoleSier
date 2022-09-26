@@ -71,6 +71,7 @@ body{
     margin-top: auto;
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 .tratamientos{
     list-style: none;
@@ -468,6 +469,7 @@ body{
     .navLink{
         color: #a8a5a5;
     }
+
     .navFooter{
         display: flex;
         flex-direction: column;
@@ -476,6 +478,17 @@ body{
     .navFooterItem{
         font-size: 16px;
         padding: 10px;
+    }
+    .socialFooter{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .fa-instagram{
+        padding-left: 0px;
+    }
+    .fa-whatsapp{
+        padding-right: 10px;
     }
     .derechos{
         display: flex;
