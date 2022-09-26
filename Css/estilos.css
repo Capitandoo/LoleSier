@@ -465,14 +465,16 @@ body{
     .tratamientosItem{
         width: 400px;
     }
+    .nav-link{
+        color: #706c6c;
+    }
     .navFooter{
         display: flex;
         align-items: flex-end;
-        padding-bottom: 5px;
     }
     .navFooterItem{
         font-size: 16px;
-        padding: 2px;
+        padding: 10px;
     }
     .derechos{
         display: flex;
@@ -484,5 +486,11 @@ body{
     }
     .leyenda{
         font-size: 10px;
+    }
+}
+
+@media only screen and (min-width:451px) and (max-width:960px){
+    .nav-link{
+        color: #706c6c;
     }
 }
