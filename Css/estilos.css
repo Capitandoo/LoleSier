@@ -34,11 +34,6 @@ body{
     justify-content: flex-end;
     align-items: flex-end;
 }
-/* .navLink{
-    color: white;
-    text-decoration: none;
-    padding: 20px 20px;
-} */
 .nav-link:hover{
     color: #3866f2;
 }
@@ -78,12 +73,12 @@ body{
     justify-content: center;
 }
 .tratamientos{
-
     list-style: none;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
     align-items: center;
+    padding-left: 0px;
 }
 .tratamientosItem{
     width: 500px;
@@ -460,3 +455,34 @@ body{
     padding-left: 30px;
 }
 
+@media only screen and (max-width:450px){
+    body{
+        background-color: #d9c0aa;
+    }
+    .encabezado{
+        background-size: 100%;
+    }
+    .tratamientosItem{
+        width: 400px;
+    }
+    .navFooter{
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: 5px;
+    }
+    .navFooterItem{
+        font-size: 16px;
+        padding: 2px;
+    }
+    .derechos{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+    }
+    .copy{
+        font-size: 10px;
+    }
+    .leyenda{
+        font-size: 10px;
+    }
+}
