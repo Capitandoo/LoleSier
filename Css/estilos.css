@@ -229,6 +229,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 20px;
 }
 .icoSocial{
     width: 60px;
@@ -466,10 +467,17 @@ body{
     .tratamientosItem{
         width: 400px;
     }
-    .navLink{
+    .nav-link{
         color: #a8a5a5;
     }
-    
+    .contacto{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: .1fr 1fr .1fr;
+    }
+    .tituloContactate{
+        font-size: 30px;
+    }
     .navFooter{
         display: flex;
         flex-direction: column;
