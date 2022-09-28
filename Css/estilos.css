@@ -470,12 +470,12 @@ body{
     .nav-link{
         color: #a8a5a5;
     }
-    .contacto{
+    /* .contacto{
         min-height: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: .3fr .5fr .1fr;
-    }
+    } */
     .tituloContactate{
         font-size: 30px;
     }
