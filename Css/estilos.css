@@ -473,10 +473,13 @@ body{
     .contacto{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: .1fr 1fr .1fr;
+        grid-template-rows: .3fr .5fr .1fr;
     }
     .tituloContactate{
         font-size: 30px;
+    }
+    .formulario{
+        padding: 1.5em 1em;
     }
     .navFooter{
         display: flex;
