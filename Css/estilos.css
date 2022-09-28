@@ -403,20 +403,11 @@ body{
     height: 60px;
     font-size: 20px;
 }
-.navItemsGaleria{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
+.galeriaImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     padding-top: 10px;
-}
-.galeriaContenedor{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.galeriaImagen{
-    max-width: 500px;
 }
 
 /*Footer*/
@@ -470,6 +461,9 @@ body{
     .nav-link{
         color: #a8a5a5;
     }
+    .arriba{
+        z-index: 2;
+    }
     /* .contacto{
         min-height: 100%;
         display: grid;
@@ -518,5 +512,8 @@ body{
 @media only screen and (min-width:451px) and (max-width:960px){
     .nav-link{
         color: #706c6c;
+    }
+    .arriba{
+        z-index: 2;
     }
 }
