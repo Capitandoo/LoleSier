@@ -256,35 +256,6 @@ body{
     justify-content: space-around;
     padding-top: 10px;
 }
-
-.contenedorLole{
-    width: 100%;
-    margin-top: 40px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: .5fr auto;
-    grid-template-areas: 
-    "titulo titulo"
-    "foto parrafo";
-}
-.contenedorTituloLole{
-    grid-area: titulo;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.contenedorimagenLole{
-    grid-area: foto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.contenedorParrafo{
-    grid-area: parrafo;
-    display: flex;
-    justify-content: right;
-    align-items: flex-end;
-}
 .imagenLole{
     width: 300px;
     border-radius: 20px;
@@ -292,11 +263,9 @@ body{
 .tituloLole{
     font-size: 60px;
     font-weight: 300px;
-    color: dimgray;
 }
 .parrafoLole{
-    font-size: 40px;
-    color: dimgray;
+    font-size: 35px;
 }
 
 /*tratamientos*/
@@ -464,17 +433,20 @@ body{
     .arriba{
         z-index: 2;
     }
-    /* .contacto{
-        min-height: 100%;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: .3fr .5fr .1fr;
-    } */
     .tituloContactate{
         font-size: 30px;
     }
     .formulario{
         padding: 1.5em 1em;
+    }
+    .imagenLole{
+        width: 200px;
+    }    
+    .tituloLole{
+        font-size: 30px;
+    }
+    .parrafoLole{
+        font-size: 20px;
     }
     .navFooter{
         display: flex;
@@ -516,4 +488,14 @@ body{
     .arriba{
         z-index: 2;
     }
+    .tituloLole{
+        font-size: 40px;
+    }
+    .parrafoLole{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width:961px){
+
 }
