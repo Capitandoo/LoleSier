@@ -450,16 +450,20 @@ body{
     padding-left: 30px;
 }
 
-@media only screen and (max-width:450px){
+@media only screen and (max-width: 400px){
+    .tratamientos{
+        max-width: 280px;
+    }
+}
+
+@media only screen and (max-width: 450px){
     body{
         background-color: #d9c0aa;
     }
     .encabezado{
         background-size: 100%;
     }
-    .tratamientosItem{
-        width: 400px;
-    }
+
     .nav-link{
         color: #a8a5a5;
     }
@@ -482,7 +486,7 @@ body{
         font-size: 20px;
     }
     .tratamientos{
-        max-width: 350px;
+        max-width: 380px;
     }
     .navFooter{
         display: flex;
@@ -517,7 +521,7 @@ body{
     }
 }
 
-@media only screen and (min-width:451px) and (max-width:960px){
+@media only screen and (min-width: 451px) and (max-width: 960px){
     .nav-link{
         color: #706c6c;
     }
