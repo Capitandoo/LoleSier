@@ -296,6 +296,8 @@ body{
     border-radius: 10px;
     box-shadow: 0 0 0.1em rgba(0, 0, 0, 0.3);
     background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
     cursor: pointer;
     transition-property: box-shadow;
     transition-duration: 0.3s;
@@ -306,6 +308,8 @@ body{
 .tratamientosItems > img{
     width: 100%;
     object-fit: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 .tratamientosTexto{
     border-top: 1px solid rgb(230, 230, 230);
@@ -338,6 +342,9 @@ body{
     grid-template-columns: repeat(auto-fit, 280px);
     grid-template-rows: 1fr;
     grid-gap: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
 }
 .tiendaItem{
     max-width: 280px;
@@ -351,17 +358,43 @@ body{
     transition-duration: 0.3s;
 }
 .tiendaItem:hover{
-    box-shadow: 0 0 .5em rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 .5em rgba(0, 0, 0, 0.5);
 }
 .tiendaItem > img{
     width: 100%;
     object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .tiendaInformacionTexto{
     border-top: 1px solid rgb(230, 230, 230);
     padding: 1em;
     display: flex;
     flex-flow: column;
+}
+.precio {
+    color: grey;
+    font-size: 22px;
+    text-align: center;
+}
+.btn{
+    display: flex;
+    flex-flow: column;
+    margin-top: auto;
+}
+.boton {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.boton:hover {
+    opacity: 0.7;
 }
 
 /*Galeria*/
@@ -447,6 +480,9 @@ body{
     }
     .parrafoLole{
         font-size: 20px;
+    }
+    .tratamientos{
+        max-width: 350px;
     }
     .navFooter{
         display: flex;
