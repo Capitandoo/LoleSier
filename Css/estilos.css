@@ -16,7 +16,7 @@ body{
 /*index*/
 .encabezado{
     height: 100vh;
-    background-image: url(../Imagenes/Logo.jpg);
+    background-image: url(../Imagenes/logo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -25,9 +25,6 @@ body{
     font-size: 20px;
     padding-top: 10px;
     position: relative;
-}
-.nav{
-    background-color: #d9c0aa;
 }
 .navItems{
     display: flex; 
@@ -54,8 +51,6 @@ body{
     font-size: 20px;
     padding-top: 10px;
     position: relative;
-    display: flex;
-    flex-direction: column;
     padding-bottom: 20px;
 }
 .onda2{
@@ -65,7 +60,7 @@ body{
     width: 100%;
     height: 50px;
 }
-.tratamientosTitulo{
+.tratamientoTitulo{
     font-size: 60px;
     font-family: 'Ms Madi', cursive;
     margin-top: auto;
@@ -73,7 +68,7 @@ body{
     justify-content: center;
     padding-top: 20px;
 }
-.tratamientos{
+.tratamiento{
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -81,7 +76,7 @@ body{
     align-items: center;
     padding-left: 0px;
 }
-.tratamientosItem{
+.tratamientoItem{
     width: 500px;
     justify-content: center;
 }
@@ -93,23 +88,14 @@ body{
     border-radius: 30px;
     padding: 5px 20px;
 }
-.textoTratamientosItem{
+.textoTratamientoItem{
     padding: 5px 0px 30px 0px;
 }
 
 /*Contactame Ahora*/
 .encabezadoContactame{
-    display: flex;
     background-color: #d9c0aa;
-    justify-content: end;
-    height: 60px;
     font-size: 20px;
-}
-.navItemsContactame{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 10px;
 }
 .contacto{
     width: 100%;
@@ -244,17 +230,8 @@ body{
     background-color: #eae3d3;
 }
 .encabezadoLole{
-    display: flex;
     background-color: #d9c0aa;
-    justify-content: end;
-    height: 60px;
     font-size: 20px;
-}
-.navItemsLole{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 10px;
 }
 .imagenLole{
     width: 300px;
@@ -270,17 +247,8 @@ body{
 
 /*tratamientos*/
 .encabezadoTratamientos{
-    display: flex;
-    justify-content: end;
     background-color: #d9c0aa;
-    height: 60px;
     font-size: 20px;
-}
-.navItemsTratamientos{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 10px;
 }
 .tratamientosMain{
     background-color: #eae3d3;
@@ -320,17 +288,8 @@ body{
 
 /*tienda*/
 .encabezadoTienda{
-    display: flex;
     background-color: #d9c0aa;
-    justify-content: end;
-    height: 60px;
     font-size: 20px;
-}
-.navItemsTienda{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 10px;
 }
 .tiendamain{
     background-color: #eae3d3;
@@ -399,10 +358,7 @@ body{
 
 /*Galeria*/
 .encabezadoGaleria{
-    display: flex;
     background-color: #d9c0aa;
-    justify-content: end;
-    height: 60px;
     font-size: 20px;
 }
 .galeriaImg{
@@ -599,8 +555,4 @@ body{
     .parrafoLole{
         font-size: 1.875rem;
     }
-}
-
-@media only screen and (min-width:961px){
-
 }
