@@ -1,0 +1,27 @@
+.encabezado{
+    height: 100vh;
+    background-image: url(../Imagenes/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    object-fit: cover;
+    font-size: 20px;
+    padding-top: 10px;
+    position: relative;
+}
+.navItems{
+    display: flex; 
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.nav-link:hover{
+    color: #3866f2;
+}
+.onda{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+}
