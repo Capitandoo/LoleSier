@@ -1,36 +1,35 @@
 .footer{
     margin-top: auto;
     background-color: #d9c0aa;
-}
-.enlaces{
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-}
-.navFooterItem{
-    color: white;
-    font-size: 20px;
-    padding: 15px;
-    text-decoration: none;
-}
-.derechos{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 30px;
-}
-.socialFooter{
-    display: flex;
-}
-.fa-brands{
-    display: flex;
-    font-size: 30px;
-    color: white;
-    text-decoration: none;
-}
-.textoSocialFooter{
-    font-size: 10px;
-    color: white;
-}
-.fa-instagram{
-    padding-left: 30px;
+    .enlaces{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        .navFooterItem{
+            color: white;
+            font-size: 20px;
+            padding: 15px;
+            text-decoration: none;
+        }
+        .socialFooter{
+            display: flex;
+            .fa-brands{
+                font-size: 30px;
+                color: white;
+                text-decoration: none;
+            }
+            .fa-instagram{
+                padding-left: 30px;
+            }
+            .textoSocialFooter{
+                font-size: 10px;
+                color: white;
+            }
+        }
+    }
+    .derechos{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
 }

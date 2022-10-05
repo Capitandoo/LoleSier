@@ -9,21 +9,28 @@
   font-size: 20px;
   padding-top: 10px;
   position: relative; }
+  .encabezado .navItems {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; }
+    .encabezado .navItems .nav-link:hover {
+      color: #3866f2; }
+  .encabezado .onda {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px; }
 
-.navItems {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end; }
-
-.nav-link:hover {
-  color: #3866f2; }
-
-.onda {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
-  height: 50px; }
+.encabezadoContactame {
+  background-color: #d9c0aa;
+  font-size: 20px; }
+  .encabezadoContactame .navItems {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; }
+    .encabezadoContactame .navItems .nav-link:hover {
+      color: #3866f2; }
 
 .contenedorSeccion {
   min-height: 100vh;
@@ -36,79 +43,65 @@
   padding-top: 10px;
   position: relative;
   padding-bottom: 20px; }
-
-.onda2 {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 50px; }
-
-.tratamientoTitulo {
-  font-size: 60px;
-  font-family: 'Ms Madi', cursive;
-  margin-top: auto;
-  display: flex;
-  justify-content: center;
-  padding-top: 20px; }
-
-.tratamiento {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-  align-items: center;
-  padding-left: 0px; }
-
-.tratamientoItem {
-  width: 500px;
-  justify-content: center; }
-
-.conoceMas {
-  display: inline-block;
-  color: black;
-  text-decoration: none;
-  border: solid 3px black;
-  border-radius: 30px;
-  padding: 5px 20px; }
-
-.textoTratamientoItem {
-  padding: 5px 0px 30px 0px; }
+  .contenedorSeccion .onda2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px; }
+  .contenedorSeccion .tratamientoTitulo {
+    font-size: 60px;
+    font-family: 'Ms Madi', cursive;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px; }
+  .contenedorSeccion .tratamiento {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+    padding-left: 0px; }
+  .contenedorSeccion .tratamientoItem {
+    width: 500px;
+    justify-content: center; }
+  .contenedorSeccion .textoTratamientoItem {
+    padding: 5px 0px 30px 0px; }
+  .contenedorSeccion .conoceMas {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    border: solid 3px black;
+    border-radius: 30px;
+    padding: 5px 20px; }
 
 .footer {
   margin-top: auto;
   background-color: #d9c0aa; }
-
-.enlaces {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px; }
-
-.navFooterItem {
-  color: white;
-  font-size: 20px;
-  padding: 15px;
-  text-decoration: none; }
-
-.derechos {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 30px; }
-
-.socialFooter {
-  display: flex; }
-
-.fa-brands {
-  display: flex;
-  font-size: 30px;
-  color: white;
-  text-decoration: none; }
-
-.textoSocialFooter {
-  font-size: 10px;
-  color: white; }
-
-.fa-instagram {
-  padding-left: 30px; }
+  .footer .enlaces {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px; }
+    .footer .enlaces .navFooterItem {
+      color: white;
+      font-size: 20px;
+      padding: 15px;
+      text-decoration: none; }
+    .footer .enlaces .socialFooter {
+      display: flex; }
+      .footer .enlaces .socialFooter .fa-brands {
+        font-size: 30px;
+        color: white;
+        text-decoration: none; }
+      .footer .enlaces .socialFooter .fa-instagram {
+        padding-left: 30px; }
+      .footer .enlaces .socialFooter .textoSocialFooter {
+        font-size: 10px;
+        color: white; }
+  .footer .derechos {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px; }
 
 /*# sourceMappingURL=estilos.css.map */
