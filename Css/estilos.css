@@ -1,3 +1,10 @@
+body {
+  background-color: #eae3d3;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
 .encabezado {
   height: 100vh;
   background-image: url(../Imagenes/logo.jpg);
@@ -30,6 +37,49 @@
     justify-content: flex-end;
     align-items: flex-end; }
     .encabezadoContactame .navItems .nav-link:hover {
+      color: #3866f2; }
+
+.lole {
+  background-color: #eae3d3; }
+
+.encabezadoLole {
+  background-color: #d9c0aa;
+  font-size: 20px; }
+  .encabezadoLole .navItems {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; }
+    .encabezadoLole .navItems .nav-link:hover {
+      color: #3866f2; }
+
+.encabezadoTratamientos {
+  background-color: #d9c0aa;
+  font-size: 20px; }
+  .encabezadoTratamientos .navItems {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; }
+    .encabezadoTratamientos .navItems .nav-link:hover {
+      color: #3866f2; }
+
+.encabezadoTienda {
+  background-color: #d9c0aa;
+  font-size: 20px; }
+  .encabezadoTienda .navItems {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; }
+    .encabezadoTienda .navItems .nav-link:hover {
+      color: #3866f2; }
+
+.encabezadoGaleria {
+  background-color: #d9c0aa;
+  font-size: 20px; }
+  .encabezadoGaleria .navItems {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; }
+    .encabezadoGaleria .navItems .nav-link:hover {
       color: #3866f2; }
 
 .contenedorSeccion {
@@ -75,6 +125,202 @@
     border: solid 3px black;
     border-radius: 30px;
     padding: 5px 20px; }
+
+.contacto {
+  width: 100%;
+  min-height: 80vh;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: .3fr 1fr .1fr;
+  grid-template-areas: "titulo titulo titulo" "email email email" "social social social"; }
+  .contacto .contenedorTituloContactate {
+    grid-area: titulo;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .contacto .contenedorTituloContactate .tituloContactate {
+      font-size: 50px; }
+  .contacto .contenedorContacto {
+    grid-area: email;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .contacto .contenedorContacto .formulario {
+      background-color: #d9c0aa;
+      border-radius: 10px;
+      padding: 3em 2em;
+      box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.3);
+      text-align: center; }
+      .contacto .contenedorContacto .formulario .formularioParrafo {
+        font-weight: 300; }
+      .contacto .contenedorContacto .formulario .formularioContenido {
+        margin-top: 3em;
+        display: grid;
+        gap: 2.5em; }
+        .contacto .contenedorContacto .formulario .formularioContenido .formularioGrupo {
+          position: relative;
+          --color: #5757577e; }
+          .contacto .contenedorContacto .formulario .formularioContenido .formularioGrupo .formularioEntrada {
+            width: 100%;
+            background: none;
+            color: #706c6c;
+            font-size: 1rem;
+            padding: .6em .3em;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid var(--color); }
+          .contacto .contenedorContacto .formulario .formularioContenido .formularioGrupo .formularioEntrada:not(:placeholder-shown) {
+            color: #4d4646; }
+          .contacto .contenedorContacto .formulario .formularioContenido .formularioGrupo .formularioEntrada:focus + .formularioEtiqueta,
+          .contacto .contenedorContacto .formulario .formularioContenido .formularioGrupo .formularioEntrada:not(:placeholder-shown) + .formularioEtiqueta {
+            transform: translateY(-12px) scale(0.7);
+            transform-origin: left top;
+            color: #3866f2; }
+          .contacto .contenedorContacto .formulario .formularioContenido .formularioGrupo .formularioEntradaTexto {
+            resize: none;
+            padding: 1.8em .5em; }
+          .contacto .contenedorContacto .formulario .formularioContenido .formularioGrupo .formularioEtiqueta {
+            color: var(--color);
+            cursor: pointer;
+            position: absolute;
+            top: 0;
+            left: 5px;
+            transform: translateY(10px);
+            transition: .5s, color .3s; }
+          .contacto .contenedorContacto .formulario .formularioContenido .formularioGrupo .formularioLinea {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background-color: #3866f2;
+            transform: scale(0);
+            transform: left bottom;
+            transition: transform .4s; }
+          .contacto .contenedorContacto .formulario .formularioContenido .formularioGrupo .formularioEntrada:focus + .formularioLinea,
+          .contacto .contenedorContacto .formulario .formularioContenido .formularioGrupo .formularioEntrada:not(:placeholder-shown) ~ .formularioLinea {
+            transform: scale(1); }
+        .contacto .contenedorContacto .formulario .formularioContenido .formularioEnviar {
+          background: #3866f2;
+          color: white;
+          font-weight: 300;
+          font-size: 1rem;
+          padding: .8em 0;
+          border: none;
+          border-radius: .5em;
+          cursor: pointer; }
+  .contacto .contactoSocial {
+    grid-area: social;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px; }
+    .contacto .contactoSocial .textoSocialContacto {
+      color: black;
+      text-decoration: none; }
+    .contacto .contactoSocial .icoSocial {
+      width: 60px; }
+
+.tituloLole {
+  font-size: 60px;
+  font-weight: 300px; }
+
+.imagenLole {
+  width: 300px;
+  border-radius: 20px; }
+
+.parrafoLole {
+  font-size: 35px; }
+
+.tratamientos {
+  max-width: 480px;
+  margin: auto;
+  gap: 20px; }
+  .tratamientos .tratamientosItems {
+    display: flex;
+    flex-flow: column;
+    border-radius: 10px;
+    box-shadow: 0 0 0.1em rgba(0, 0, 0, 0.3);
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition-property: box-shadow;
+    transition-duration: 0.3s; }
+    .tratamientos .tratamientosItems .tratamientosTexto {
+      border-top: 1px solid #e6e6e6;
+      padding: 1em;
+      display: flex;
+      flex-flow: column; }
+  .tratamientos .tratamientosItems:hover {
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.3); }
+  .tratamientos .tratamientosItems > img {
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px; }
+
+.tienda {
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 280px);
+  grid-template-rows: 1fr;
+  grid-gap: 1em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center; }
+  .tienda .tiendaItem {
+    max-width: 280px;
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    border-radius: 10px;
+    box-shadow: 0 0 0.1em rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition-property: box-shadow;
+    transition-duration: 0.3s; }
+    .tienda .tiendaItem .tiendaInformacionTexto {
+      border-top: 1px solid #e6e6e6;
+      padding: 1em;
+      display: flex;
+      flex-flow: column; }
+    .tienda .tiendaItem .btn {
+      display: flex;
+      flex-flow: column;
+      margin-top: auto; }
+      .tienda .tiendaItem .btn .precio {
+        color: grey;
+        font-size: 22px;
+        text-align: center; }
+      .tienda .tiendaItem .btn .boton {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px; }
+      .tienda .tiendaItem .btn .boton:hover {
+        opacity: 0.7; }
+  .tienda .tiendaItem:hover {
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5); }
+  .tienda .tiendaItem > img {
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; }
+
+.row {
+  padding-bottom: 0.625rem; }
+  .row .galeriaImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-top: 10px; }
 
 .footer {
   margin-top: auto;
