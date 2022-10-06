@@ -1,0 +1,77 @@
+@media only screen and (min-width: 300px) and (max-width: 399px){
+    .cuerpo__fd{
+        background-color: #d9c0aa;
+        .encabezado{
+            background-size: 100%;
+        }
+    }
+    .nav-link{
+        color: #a8a5a5;
+    }
+    .contacto{
+        .contenedorTituloContactate{
+            .tituloContactate{
+                font-size: 30px;
+            }
+        }
+        .contenedorContacto{
+            .formulario{
+                padding: 1.5em 1em;
+            }
+        }
+    }
+    .contenedorLole{
+        .tituloLole{
+            font-size: 30px;
+        }
+        .row{
+            .imagenLole{
+                width: 200px;
+            }
+            .parrafoLole{
+                font-size: 20px;
+            }
+        }
+    }
+
+   
+
+
+    .tratamientos{
+        max-width: 300px;
+    }
+    .galeriaFondo{
+        background-color: #eae3d3;
+    }
+    .navFooter{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navFooterItem{
+        font-size: 16px;
+        padding: 10px;
+    }
+    .socialFooter{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .fa-instagram{
+        padding-left: 0px;
+    }
+    .fa-whatsapp{
+        padding-right: 10px;
+    }
+    .derechos{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+    }
+    .copy{
+        font-size: 0.75rem;
+    }
+    .leyenda{
+        font-size: 0.75rem;
+    }
+}

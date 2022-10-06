@@ -84,72 +84,71 @@
                 font-weight: 300;
             }            
             .formularioContenido{
-                    margin-top: 3em;
-                    display: grid;
-                    gap: 2.5em;
-                    .formularioGrupo{
-                        position: relative;
-                        --color: #5757577e;
-                        .formularioEntrada{
-                            width: 100%;
-                            background: none;
-                            color: #706c6c;
-                            font-size: 1rem;
-                            padding: .6em .3em;
-                            border: none;
-                            outline: none;
-                            border-bottom: 1px solid var(--color);
-                        }
-                        .formularioEntrada:not(:placeholder-shown){
-                            color: #4d4646;
-                        }
-                        .formularioEntrada:focus + .formularioEtiqueta,
-                        .formularioEntrada:not( :placeholder-shown ) + .formularioEtiqueta{
-                            transform: translateY(-12px) scale(.7);
-                            transform-origin: left top;
-                            color: #3866f2;
-                        }
-                        .formularioEntradaTexto{
-                            resize: none;
-                            padding: 1.8em .5em;
-                        }
-                        .formularioEtiqueta{
-                            color: var(--color);
-                            cursor: pointer;
-                            position: absolute;
-                            top: 0;
-                            left: 5px;
-                            transform: translateY(10px);
-                            transition: .5s, color .3s;
-                        }
-                        .formularioLinea{
-                            position: absolute;
-                            bottom: 0;
-                            left: 0;
-                            width: 100%;
-                            height: 1px;
-                            background-color: #3866f2;
-                            transform: scale(0);
-                            transform: left bottom;
-                            transition: transform .4s;
-                        }
-                        .formularioEntrada:focus + .formularioLinea,
-                        .formularioEntrada:not( :placeholder-shown ) ~ .formularioLinea{
-                            transform: scale(1);
-                        }                     
-                    }
-                    .formularioEnviar{
-                        background: #3866f2;
-                        color: white;
-                        font-weight: 300;
+                margin-top: 3em;
+                display: grid;
+                gap: 2.5em;
+                .formularioGrupo{
+                    position: relative;
+                    --color: #5757577e;
+                    .formularioEntrada{
+                        width: 100%;
+                        background: none;
+                        color: #706c6c;
                         font-size: 1rem;
-                        padding: .8em 0;
+                        padding: .6em .3em;
                         border: none;
-                        border-radius: .5em;
-                        cursor: pointer;
+                        outline: none;
+                        border-bottom: 1px solid var(--color);
                     }
+                    .formularioEntrada:not(:placeholder-shown){
+                        color: #4d4646;
+                    }
+                    .formularioEntrada:focus + .formularioEtiqueta,
+                    .formularioEntrada:not( :placeholder-shown ) + .formularioEtiqueta{
+                        transform: translateY(-12px) scale(.7);
+                        transform-origin: left top;
+                        color: #3866f2;
+                    }
+                    .formularioEntradaTexto{
+                        resize: none;
+                        padding: 1.8em .5em;
+                    }
+                    .formularioEtiqueta{
+                        color: var(--color);
+                        cursor: pointer;
+                        position: absolute;
+                        top: 0;
+                        left: 5px;
+                        transform: translateY(10px);
+                        transition: .5s, color .3s;
+                    }
+                    .formularioLinea{
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 1px;
+                        background-color: #3866f2;
+                        transform: scale(0);
+                        transform: left bottom;
+                        transition: transform .4s;
+                    }
+                    .formularioEntrada:focus + .formularioLinea,
+                    .formularioEntrada:not( :placeholder-shown ) ~ .formularioLinea{
+                        transform: scale(1);
+                    }                     
                 }
-            
+                .formularioEnviar{
+                    background: #3866f2;
+                    color: white;
+                    font-weight: 300;
+                    font-size: 1rem;
+                    padding: .8em 0;
+                    border: none;
+                    border-radius: .5em;
+                    cursor: pointer;
+                }
+            }
         }
     }
     .contactoSocial{

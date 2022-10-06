@@ -350,4 +350,138 @@ body {
     justify-content: space-between;
     padding-top: 30px; }
 
+@media only screen and (min-width: 300px) and (max-width: 399px) {
+  .cuerpo__fd {
+    background-color: #d9c0aa; }
+    .cuerpo__fd .encabezado {
+      background-size: 100%; }
+
+  .nav-link {
+    color: #a8a5a5; }
+
+  .contacto .contenedorTituloContactate .tituloContactate {
+    font-size: 30px; }
+  .contacto .contenedorContacto .formulario {
+    padding: 1.5em 1em; }
+
+  .contenedorLole .tituloLole {
+    font-size: 30px; }
+  .contenedorLole .row .imagenLole {
+    width: 200px; }
+  .contenedorLole .row .parrafoLole {
+    font-size: 20px; }
+
+  .tratamientos {
+    max-width: 300px; }
+
+  .galeriaFondo {
+    background-color: #eae3d3; }
+
+  .navFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+
+  .navFooterItem {
+    font-size: 16px;
+    padding: 10px; }
+
+  .socialFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; }
+
+  .fa-instagram {
+    padding-left: 0px; }
+
+  .fa-whatsapp {
+    padding-right: 10px; }
+
+  .derechos {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px; }
+
+  .copy {
+    font-size: 0.75rem; }
+
+  .leyenda {
+    font-size: 0.75rem; } }
+@media only screen and (min-width: 400px) and (max-width: 450px) {
+  body {
+    background-color: #d9c0aa; }
+
+  .encabezado {
+    background-size: 100%; }
+
+  .nav-link {
+    color: #a8a5a5; }
+
+  .arriba {
+    z-index: 2; }
+
+  .tituloContactate {
+    font-size: 30px; }
+
+  .formulario {
+    padding: 1.5em 1em; }
+
+  .imagenLole {
+    width: 200px; }
+
+  .tituloLole {
+    font-size: 30px; }
+
+  .parrafoLole {
+    font-size: 20px; }
+
+  .tratamientos {
+    max-width: 380px; }
+
+  .galeriaFondo {
+    background-color: #eae3d3; }
+
+  .navFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+
+  .navFooterItem {
+    font-size: 16px;
+    padding: 10px; }
+
+  .socialFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; }
+
+  .fa-instagram {
+    padding-left: 0px; }
+
+  .fa-whatsapp {
+    padding-right: 10px; }
+
+  .derechos {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px; }
+
+  .copy {
+    font-size: 0.75rem; }
+
+  .leyenda {
+    font-size: 0.75rem; } }
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .nav-link {
+    color: #706c6c; }
+
+  .arriba {
+    z-index: 2; }
+
+  .tituloLole {
+    font-size: 2.5rem; }
+
+  .parrafoLole {
+    font-size: 1.875rem; } }
+
 /*# sourceMappingURL=estilos.css.map */
