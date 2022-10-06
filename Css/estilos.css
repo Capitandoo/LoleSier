@@ -222,15 +222,13 @@ body {
     .contacto .contactoSocial .icoSocial {
       width: 60px; }
 
-.tituloLole {
+.contenedorLole .contenedorTituloLole .tituloLole {
   font-size: 60px;
   font-weight: 300px; }
-
-.imagenLole {
+.contenedorLole .fila .imagenLole {
   width: 300px;
   border-radius: 20px; }
-
-.parrafoLole {
+.contenedorLole .fila .parrafoLole {
   font-size: 35px; }
 
 .tratamientos {
@@ -364,124 +362,107 @@ body {
   .contacto .contenedorContacto .formulario {
     padding: 1.5em 1em; }
 
-  .contenedorLole .tituloLole {
+  .contenedorLole .contenedorTituloLole .tituloLole {
     font-size: 30px; }
-  .contenedorLole .row .imagenLole {
+  .contenedorLole .fila .imagenLole {
     width: 200px; }
-  .contenedorLole .row .parrafoLole {
+  .contenedorLole .fila .parrafoLole {
     font-size: 20px; }
 
   .tratamientos {
     max-width: 300px; }
 
-  .galeriaFondo {
-    background-color: #eae3d3; }
-
-  .navFooter {
+  .footer .enlaces .navFooter {
     display: flex;
     flex-direction: column;
     align-items: flex-start; }
-
-  .navFooterItem {
-    font-size: 16px;
-    padding: 10px; }
-
-  .socialFooter {
+    .footer .enlaces .navFooter .navFooterItem {
+      font-size: 1rem;
+      padding: 0.625rem; }
+  .footer .enlaces .socialFooter {
     display: flex;
     flex-direction: column;
     align-items: flex-end; }
-
-  .fa-instagram {
-    padding-left: 0px; }
-
-  .fa-whatsapp {
-    padding-right: 10px; }
-
-  .derechos {
+    .footer .enlaces .socialFooter .fa-brands {
+      font-size: 30px;
+      color: white;
+      text-decoration: none; }
+    .footer .enlaces .socialFooter .fa-whatsapp {
+      padding-right: 10px; }
+    .footer .enlaces .socialFooter .fa-instagram {
+      padding-left: 0px; }
+    .footer .enlaces .socialFooter .textoSocialFooter {
+      font-size: 10px;
+      color: white; }
+  .footer .derechos {
     display: flex;
     justify-content: space-between;
     padding-top: 10px; }
-
-  .copy {
-    font-size: 0.75rem; }
-
-  .leyenda {
-    font-size: 0.75rem; } }
+    .footer .derechos .copy {
+      font-size: 0.75rem; }
+    .footer .derechos .leyenda {
+      font-size: 0.75rem; } }
 @media only screen and (min-width: 400px) and (max-width: 450px) {
-  body {
+  .cuerpo__fd {
     background-color: #d9c0aa; }
-
-  .encabezado {
-    background-size: 100%; }
+    .cuerpo__fd .encabezado {
+      background-size: 100%; }
 
   .nav-link {
     color: #a8a5a5; }
 
-  .arriba {
-    z-index: 2; }
-
-  .tituloContactate {
+  .contacto .contenedorTituloContactate .tituloContactate {
     font-size: 30px; }
-
-  .formulario {
+  .contacto .contenedorContacto .formulario {
     padding: 1.5em 1em; }
 
-  .imagenLole {
-    width: 200px; }
-
-  .tituloLole {
+  .contenedorLole .contenedorTituloLole .tituloLole {
     font-size: 30px; }
-
-  .parrafoLole {
-    font-size: 20px; }
+  .contenedorLole .fila .imagenLole {
+    width: 200px; }
+  .contenedorLole .fila .parrafoLole {
+    font-size: 30px; }
 
   .tratamientos {
     max-width: 380px; }
 
-  .galeriaFondo {
-    background-color: #eae3d3; }
-
-  .navFooter {
+  .footer .enlaces .navFooter {
     display: flex;
     flex-direction: column;
     align-items: flex-start; }
-
-  .navFooterItem {
-    font-size: 16px;
-    padding: 10px; }
-
-  .socialFooter {
+    .footer .enlaces .navFooter .navFooterItem {
+      font-size: 1rem;
+      padding: 0.625rem; }
+  .footer .enlaces .socialFooter {
     display: flex;
     flex-direction: column;
     align-items: flex-end; }
-
-  .fa-instagram {
-    padding-left: 0px; }
-
-  .fa-whatsapp {
-    padding-right: 10px; }
-
-  .derechos {
+    .footer .enlaces .socialFooter .fa-brands {
+      font-size: 30px;
+      color: white;
+      text-decoration: none; }
+    .footer .enlaces .socialFooter .fa-whatsapp {
+      padding-right: 10px; }
+    .footer .enlaces .socialFooter .fa-instagram {
+      padding-left: 0px; }
+    .footer .enlaces .socialFooter .textoSocialFooter {
+      font-size: 10px;
+      color: white; }
+  .footer .derechos {
     display: flex;
     justify-content: space-between;
     padding-top: 10px; }
-
-  .copy {
-    font-size: 0.75rem; }
-
-  .leyenda {
-    font-size: 0.75rem; } }
+    .footer .derechos .copy {
+      font-size: 0.75rem; }
+    .footer .derechos .leyenda {
+      font-size: 0.75rem; } }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   .nav-link {
     color: #706c6c; }
 
-  .arriba {
-    z-index: 2; }
-
-  .tituloLole {
+  .contenedorLole .contenedorTituloLole .tituloLole {
     font-size: 2.5rem; }
-
-  .parrafoLole {
+  .contenedorLole .fila .parrafoLole {
     font-size: 1.875rem; } }
 
 /*# sourceMappingURL=estilos.css.map */

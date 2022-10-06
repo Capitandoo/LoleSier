@@ -21,10 +21,12 @@
         }
     }
     .contenedorLole{
-        .tituloLole{
-            font-size: 30px;
+        .contenedorTituloLole{
+            .tituloLole{
+                font-size: 30px;
+            }
         }
-        .row{
+        .fila{
             .imagenLole{
                 width: 200px;
             }
@@ -33,45 +35,51 @@
             }
         }
     }
-
-   
-
-
     .tratamientos{
         max-width: 300px;
     }
-    .galeriaFondo{
-        background-color: #eae3d3;
-    }
-    .navFooter{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .navFooterItem{
-        font-size: 16px;
-        padding: 10px;
-    }
-    .socialFooter{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-    }
-    .fa-instagram{
-        padding-left: 0px;
-    }
-    .fa-whatsapp{
-        padding-right: 10px;
-    }
-    .derechos{
-        display: flex;
-        justify-content: space-between;
-        padding-top: 10px;
-    }
-    .copy{
-        font-size: 0.75rem;
-    }
-    .leyenda{
-        font-size: 0.75rem;
+    .footer{
+        .enlaces{
+            .navFooter{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                .navFooterItem{
+                    font-size: 1rem;
+                    padding: 0.625rem;
+                }
+            }
+            .socialFooter{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                .fa-brands{
+                    font-size: 30px;
+                    color: white;
+                    text-decoration: none;
+                }
+                .fa-whatsapp{
+                    padding-right: 10px;
+                }
+                .fa-instagram{
+                    padding-left: 0px;
+                }
+                .textoSocialFooter{
+                    font-size: 10px;
+                    color: white;
+                }
+            }
+        }
+        .derechos{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 10px;
+            .copy{
+                font-size: 0.75rem;
+            }
+            .leyenda{
+                font-size: 0.75rem;
+            }
+        }
     }
 }

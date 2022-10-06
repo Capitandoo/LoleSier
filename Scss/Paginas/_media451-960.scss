@@ -2,13 +2,16 @@
     .nav-link{
         color: #706c6c;
     }
-    .arriba{
-        z-index: 2;
-    }
-    .tituloLole{
-        font-size: 2.5rem;
-    }
-    .parrafoLole{
-        font-size: 1.875rem;
+    .contenedorLole{
+        .contenedorTituloLole{
+            .tituloLole{
+                font-size: 2.5rem;
+            }
+        }
+        .fila{
+            .parrafoLole{
+                font-size: 1.875rem;
+            }
+        }
     }
 }

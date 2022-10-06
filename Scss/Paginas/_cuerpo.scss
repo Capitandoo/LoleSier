@@ -166,16 +166,22 @@
         }
     }
 }
-.tituloLole{
-    font-size: 60px;
-    font-weight: 300px;
-}
-.imagenLole{
-    width: 300px;
-    border-radius: 20px;
-}
-.parrafoLole{
-    font-size: 35px;
+.contenedorLole{
+    .contenedorTituloLole{
+        .tituloLole{
+            font-size: 60px;
+            font-weight: 300px;
+        }
+    }
+    .fila{
+        .imagenLole{
+            width: 300px;
+            border-radius: 20px;
+        }
+        .parrafoLole{
+            font-size: 35px;
+        }
+    }
 }
 .tratamientos{
     max-width: 480px;
