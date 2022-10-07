@@ -1,5 +1,8 @@
+@import 'Base/reset';
+@import 'Base/fuentes';
 @import 'Comunes/body';
-@import 'Paginas/headers';
+@import 'Comunes/encabezado';
+@import 'Paginas/header';
 @import 'Paginas/cuerpo';
 @import 'Paginas/footer';
 @import 'Paginas/media300-399';
