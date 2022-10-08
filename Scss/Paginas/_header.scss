@@ -10,9 +10,7 @@
     padding-top: 10px;
     position: relative;
         .navItems{
-            display: flex; 
-            justify-content: flex-end;
-            align-items: flex-end;
+            @include display-flex (flex, flex-end, flex-end);
                 .nav-link:hover{
                     color: #3866f2;        
                 }        
