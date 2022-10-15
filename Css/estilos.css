@@ -333,6 +333,9 @@ body {
   .nav-link {
     color: #a8a5a5; }
 
+  .contenedorSeccion .tratamiento .conoceMas {
+    font-size: 0.75rem; }
+
   .contacto .contenedorTituloContactate .tituloContactate {
     font-size: 30px; }
   .contacto .contenedorContacto .formulario {
@@ -386,6 +389,9 @@ body {
 
   .nav-link {
     color: #a8a5a5; }
+
+  .contenedorSeccion .tratamiento .conoceMas {
+    font-size: 1rem; }
 
   .contacto .contenedorTituloContactate .tituloContactate {
     font-size: 30px; }
