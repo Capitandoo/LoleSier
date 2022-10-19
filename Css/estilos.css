@@ -328,7 +328,8 @@ body {
   .cuerpo__fd {
     background-color: #d9c0aa; }
     .cuerpo__fd .encabezado {
-      background-size: 100%; }
+      background-size: 100%;
+      background-position: center center; }
 
   .nav-link {
     color: #464444; }
@@ -385,7 +386,8 @@ body {
   .cuerpo__fd {
     background-color: #d9c0aa; }
     .cuerpo__fd .encabezado {
-      background-size: 100%; }
+      background-size: 100%;
+      background-position: center center; }
 
   .nav-link {
     color: #464444; }
