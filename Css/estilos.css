@@ -331,7 +331,7 @@ body {
       background-size: 100%; }
 
   .nav-link {
-    color: #a8a5a5; }
+    color: #464444; }
 
   .contenedorSeccion .tratamiento .conoceMas {
     font-size: 0.75rem; }
@@ -388,7 +388,7 @@ body {
       background-size: 100%; }
 
   .nav-link {
-    color: #a8a5a5; }
+    color: #464444; }
 
   .contenedorSeccion .tratamiento .conoceMas {
     font-size: 1rem; }
@@ -440,7 +440,7 @@ body {
       font-size: 0.75rem; } }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   .nav-link {
-    color: #706c6c; }
+    color: #464444; }
 
   .contenedorLole .contenedorTituloLole .tituloLole {
     font-size: 2.5rem; }
