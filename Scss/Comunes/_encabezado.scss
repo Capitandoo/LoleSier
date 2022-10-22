@@ -5,6 +5,9 @@
         display: flex; 
         justify-content: flex-end;
         align-items: flex-end;
+        .nav-link{
+            color: #464444;
+        }
         .nav-link:hover{
             color: #3866f2;
         }

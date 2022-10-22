@@ -4,6 +4,9 @@
         .encabezado{
             background-size: 100%;
             background-attachment: scroll;
+            .nav-link{
+                color: #464444;
+            }
         }
         .contenedorSeccion{
             background-attachment: scroll;
@@ -12,10 +15,7 @@
                     font-size: 0.75rem;
                 }
             }
-    }
-    .nav-link{
-        color: #464444;
-    }
+    }    
     }
     .contacto{
         .contenedorTituloContactate{

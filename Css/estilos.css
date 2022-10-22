@@ -17,6 +17,8 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end; }
+    .encabezados .navItems .nav-link {
+      color: #464444; }
     .encabezados .navItems .nav-link:hover {
       color: #3866f2; }
 
@@ -330,12 +332,12 @@ body {
     .cuerpo__fd .encabezado {
       background-size: 100%;
       background-attachment: scroll; }
+      .cuerpo__fd .encabezado .nav-link {
+        color: #464444; }
     .cuerpo__fd .contenedorSeccion {
       background-attachment: scroll; }
       .cuerpo__fd .contenedorSeccion .tratamiento .conoceMas {
         font-size: 0.75rem; }
-    .cuerpo__fd .nav-link {
-      color: #464444; }
 
   .contacto .contenedorTituloContactate .tituloContactate {
     font-size: 30px; }
