@@ -329,13 +329,13 @@ body {
     background-color: #d9c0aa; }
     .cuerpo__fd .encabezado {
       background-size: 100%;
-      background-position: center center; }
-
-  .nav-link {
-    color: #464444; }
-
-  .contenedorSeccion .tratamiento .conoceMas {
-    font-size: 0.75rem; }
+      background-attachment: scroll; }
+    .cuerpo__fd .contenedorSeccion {
+      background-attachment: scroll; }
+      .cuerpo__fd .contenedorSeccion .tratamiento .conoceMas {
+        font-size: 0.75rem; }
+    .cuerpo__fd .nav-link {
+      color: #464444; }
 
   .contacto .contenedorTituloContactate .tituloContactate {
     font-size: 30px; }
@@ -387,13 +387,13 @@ body {
     background-color: #d9c0aa; }
     .cuerpo__fd .encabezado {
       background-size: 100%;
-      background-position: center center; }
-
-  .nav-link {
-    color: #464444; }
-
-  .contenedorSeccion .tratamiento .conoceMas {
-    font-size: 1rem; }
+      background-attachment: scroll; }
+    .cuerpo__fd .contenedorSeccion {
+      background-attachment: scroll; }
+      .cuerpo__fd .contenedorSeccion .tratamiento .conoceMas {
+        font-size: 1rem; }
+    .cuerpo__fd .nav-link {
+      color: #464444; }
 
   .contacto .contenedorTituloContactate .tituloContactate {
     font-size: 30px; }

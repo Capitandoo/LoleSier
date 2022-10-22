@@ -3,18 +3,19 @@
         background-color: $fondo-primario;
         .encabezado{
             background-size: 100%;
-            background-position: center center;
+            background-attachment: scroll;
         }
+        .contenedorSeccion{
+            background-attachment: scroll;
+            .tratamiento{
+                .conoceMas{
+                    font-size: 1rem;
+                }
+            }
     }
     .nav-link{
         color: #464444;
     }
-    .contenedorSeccion{
-        .tratamiento{
-            .conoceMas{
-                font-size: 1rem;
-            }
-        }
     }
     .contacto{
         .contenedorTituloContactate{
