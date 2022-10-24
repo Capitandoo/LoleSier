@@ -4,6 +4,12 @@
         .encabezado{
             background-size: 100%;
             background-attachment: scroll;
+            .nav-link{
+                color: #464444;
+            }
+            .active{
+                color: whitesmoke;
+            }
         }
         .contenedorSeccion{
             background-attachment: scroll;
@@ -12,10 +18,8 @@
                     font-size: 1rem;
                 }
             }
-    }
-    .nav-link{
-        color: #464444;
-    }
+        }
+
     }
     .contacto{
         .contenedorTituloContactate{

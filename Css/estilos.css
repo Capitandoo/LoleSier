@@ -340,6 +340,8 @@ body {
       background-attachment: scroll; }
       .cuerpo__fd .encabezado .nav-link {
         color: #464444; }
+      .cuerpo__fd .encabezado .active {
+        color: whitesmoke; }
     .cuerpo__fd .contenedorSeccion {
       background-attachment: scroll; }
       .cuerpo__fd .contenedorSeccion .tratamiento .conoceMas {
@@ -396,12 +398,14 @@ body {
     .cuerpo__fd .encabezado {
       background-size: 100%;
       background-attachment: scroll; }
+      .cuerpo__fd .encabezado .nav-link {
+        color: #464444; }
+      .cuerpo__fd .encabezado .active {
+        color: whitesmoke; }
     .cuerpo__fd .contenedorSeccion {
       background-attachment: scroll; }
       .cuerpo__fd .contenedorSeccion .tratamiento .conoceMas {
         font-size: 1rem; }
-    .cuerpo__fd .nav-link {
-      color: #464444; }
 
   .contacto .contenedorTituloContactate .tituloContactate {
     font-size: 30px; }
@@ -451,6 +455,9 @@ body {
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   .nav-link {
     color: #464444; }
+
+  .active {
+    color: whitesmoke; }
 
   .contenedorLole .contenedorTituloLole .tituloLole {
     font-size: 2.5rem; }
