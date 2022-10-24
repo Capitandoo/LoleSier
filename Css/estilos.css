@@ -21,6 +21,8 @@ body {
       color: #464444; }
     .encabezados .navItems .nav-link:hover {
       color: #3866f2; }
+    .encabezados .navItems .active {
+      color: whitesmoke; }
 
 .encabezado {
   height: 100vh;
@@ -37,8 +39,12 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end; }
+    .encabezado .navItems .nav-link {
+      color: #464444; }
     .encabezado .navItems .nav-link:hover {
       color: #3866f2; }
+    .encabezado .navItems .active {
+      color: whitesmoke; }
   .encabezado .onda {
     position: absolute;
     bottom: 0px;

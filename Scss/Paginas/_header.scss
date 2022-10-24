@@ -11,9 +11,15 @@
     position: relative;
         .navItems{
             @include display-flex (flex, flex-end, flex-end);
-                .nav-link:hover{
-                    color: #3866f2;        
-                }        
+            .nav-link{
+                color: #464444;
+            }
+            .nav-link:hover{
+                color: #3866f2;        
+            }
+            .active{
+                color: whitesmoke;
+            }
         }
         .onda{
             position: absolute;
