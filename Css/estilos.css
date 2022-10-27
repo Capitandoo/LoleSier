@@ -392,6 +392,66 @@ body {
       font-size: 0.75rem; }
     .footer .derechos .leyenda {
       font-size: 0.75rem; } }
+@media only screen and (orientation: landscape) {
+  .cuerpo__fd {
+    background-color: #d9c0aa; }
+    .cuerpo__fd .encabezado {
+      background-size: 100%;
+      background-attachment: scroll; }
+      .cuerpo__fd .encabezado .nav-link {
+        color: #464444; }
+      .cuerpo__fd .encabezado .active {
+        color: whitesmoke; }
+    .cuerpo__fd .contenedorSeccion {
+      background-attachment: scroll; }
+      .cuerpo__fd .contenedorSeccion .tratamiento .conoceMas {
+        font-size: 1rem; }
+
+  .contacto .contenedorTituloContactate .tituloContactate {
+    font-size: 30px; }
+  .contacto .contenedorContacto .formulario {
+    padding: 1.5em 1em; }
+
+  .contenedorLole .contenedorTituloLole .tituloLole {
+    font-size: 30px; }
+  .contenedorLole .fila .imagenLole {
+    width: 200px; }
+  .contenedorLole .fila .parrafoLole {
+    font-size: 30px; }
+
+  .tratamientos {
+    max-width: 380px; }
+
+  .footer .enlaces .navFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+    .footer .enlaces .navFooter .navFooterItem {
+      font-size: 1rem;
+      padding: 0.625rem; }
+  .footer .enlaces .socialFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; }
+    .footer .enlaces .socialFooter .fa-brands {
+      font-size: 30px;
+      color: white;
+      text-decoration: none; }
+    .footer .enlaces .socialFooter .fa-whatsapp {
+      padding-right: 10px; }
+    .footer .enlaces .socialFooter .fa-instagram {
+      padding-left: 0px; }
+    .footer .enlaces .socialFooter .textoSocialFooter {
+      font-size: 10px;
+      color: white; }
+  .footer .derechos {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px; }
+    .footer .derechos .copy {
+      font-size: 0.75rem; }
+    .footer .derechos .leyenda {
+      font-size: 0.75rem; } }
 @media only screen and (min-width: 400px) and (max-width: 450px) {
   .cuerpo__fd {
     background-color: #d9c0aa; }
