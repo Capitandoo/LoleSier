@@ -44,21 +44,21 @@
         </section>
         <section class="contenedorContacto">
             <div class="contenedorDatos">
-                <form class="formulario">
+                <form class="formulario" id="formulario" action="correo.php" method="POST">
                         <p class="formularioParrafo">Envianos Tu Consulta</p>
                     <div class="formularioContenido">
                         <div class="formularioGrupo">
-                            <input type="text" id="nombre" class="formularioEntrada" placeholder=" ">
+                            <input type="text" id="nombre" name="nombre" class="formularioEntrada" placeholder=" ">
                             <label for="nombre" class="formularioEtiqueta">Nombre</label>
                             <span class="formularioLinea"></span>
                         </div>
                         <div class="formularioGrupo">
-                            <input type="text" id="email" class="formularioEntrada" placeholder=" ">
+                            <input type="text" id="email" name="email" class="formularioEntrada" placeholder=" ">
                             <label for="email" class="formularioEtiqueta">Email</label>
                             <span class="formularioLinea"></span>
                         </div>
                         <div class="formularioGrupo">
-                            <textarea name="" id="mensaje" class="formularioEntrada formularioEntradaTexto" placeholder=" "></textarea>
+                            <textarea id="mensaje" name="mensaje" class="formularioEntrada formularioEntradaTexto" placeholder=" "></textarea>
                             <label for="mensaje" class="formularioEtiqueta">Mensaje</label>
                             <span class="formularioLinea"></span>
                         </div>
@@ -98,6 +98,10 @@
     </footer>
     <script src="https://kit.fontawesome.com/f59524827d.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script> 
+    <script>
+        const $form = document.querySelector('#formulario')
+        $form.addEventListener
+    </script>   
 </body>
 </html>
