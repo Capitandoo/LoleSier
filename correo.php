@@ -15,26 +15,29 @@
             for($i = 0; $i < count($campos); $i++){
                 echo "<li>".$campos[$i]."</i>";
             }
-            else{
-                echo "<div class='correcto'>Datos correctos";
-            }
         }
+        else{
+            echo "<div class='correcto'>Datos correctos";
+            echo "<script> setTimeout (\"location.href = 'contactame-ahora.html'\", 1000) </script>";
+        }
+        echo "</div>";
     }
-    $destinatario = $_POST['info@lolesier.com.ar'];
-    $body = <<<HTML
-        <h1>Contacto desde la web</h1>
-        <p>De: $nombre / $email</p>
-        <h2>Mensaje</h2>
-        $mensaje
-    HTML;
-    if(empty(trim($nombre))) $nombre = 'anónimo';
-    $headers = "MIME-Version: 1.0 \r\n";
-    $headers.= "Content-type: text/html; charset=utf-8 \r\n";
-    $headers.= "From: $nombre <$email> \r\n";
-    $headers.= "To: <info@lolsier.com.ar> \r\n";
-    $headers = "Enviado desde la página de Lole Sier";
-    mail($destinatario, $body, $headers);
-    echo "<script> alert ('correo enviado exitosamete') </script>";
-    echo "<script> setTimeout (\"location.href = 'contactame-ahora.html'\", 1000) </script>";
+
+$destinatario = 'info@lolesier.com.ar';
+$asunto = "Consulta";
+
+$body = <<<HTML
+    <h1>Contacto desde la web</h1>
+    <p>De: $nombre / $email</p>
+    <h2>Mensaje</h2>
+    $mensaje
+HTML;
+
+$headers = "MIME-Version: 1.0 \r\n";
+$headers.= "Content-type: text/html; charset=utf-8 \r\n";
+$headers.= "From: $nombre <$email> \r\n";
+$headers.= "To: <info@lolesier.com.ar> \r\n";
+
+mail($destinatario, $asunto, $body, $headers );
 
 ?>
